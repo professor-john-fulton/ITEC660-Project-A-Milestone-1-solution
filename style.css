@@ -1,0 +1,50 @@
+/* all css here, none in html file */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #002b54;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav span {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Custom styling 1: Center the navigation content */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Custom styling 2: Style the form inputs */
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Custom styling 3: Add padding to content to prevent it from being smashed against the left edge */
+body {
+    padding-left: 60px;
+}
